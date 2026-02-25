@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Explorer - About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-emerald-50 to-teal-50 min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <a href="index.html" class="text-2xl font-bold text-emerald-600">📚 BookX</a>
+        <div class="space-x-4">
+          <a href="index.html" class="hover:text-emerald-600">Home</a>
+          <a href="favorites.html" class="hover:text-emerald-600">Favorites</a>
+          <a href="about.html" class="text-emerald-600 font-semibold">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-4 py-20 text-center">
+    <h1 class="text-5xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-8">
+      About BookX
+    </h1>
+    <p class="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed mb-12">
+      BookX is a responsive web app built with HTML, Tailwind CSS, and modern JavaScript. 
+      It fetches real book data from the Open Library API, supports searching, and lets you save favorites with localStorage persistence.
+    </p>
+  </section>
+
+  <footer class="bg-white/80 backdrop-blur-md border-t shadow-lg py-8 text-center text-gray-600">
+    <p>&copy; 2026 BookX. Explore more.</p>
+  </footer>
+
+</body>
+</html>
