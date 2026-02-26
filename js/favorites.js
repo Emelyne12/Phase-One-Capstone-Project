@@ -4,14 +4,14 @@ export function getFavorites() {
 
 export function addToFavorites(book) {
   let favs = getFavorites();
-  
+
   // Debug: check if book has key
   if (!book.key) {
     alert("Error: Book has no key property");
     console.error("Book object:", book);
     return;
   }
-  
+
   if (!favs.find(f => f.key === book.key)) {
     favs.push(book);
     localStorage.setItem("favorites", JSON.stringify(favs));
